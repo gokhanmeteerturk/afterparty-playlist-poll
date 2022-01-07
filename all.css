@@ -1,0 +1,162 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+body{
+    background: #23074d;
+    background: -webkit-linear-gradient(to right, #23074d, #ad33cc);
+    background: linear-gradient(to right, #23074d, #ad33cc);
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+}
+ul{
+    padding:0 16px 0 16px;
+    margin:0 auto;
+    max-width:800px;
+    min-height:360px;
+}
+li img{border-radius: 8px;}
+li{
+    position:relative;
+    list-style-type:none;
+    height:126px;
+    padding:8px;
+    margin:8px;
+    background:#eee;
+    border:2px solid #ddd;
+    border-radius:3px;
+}
+.ok{
+	display:inline-block;
+    width:48px;
+    height:48px;
+    margin:6px;
+}
+pre{
+    font-size:8px;
+    margin:4px;
+}
+.ok svg{
+    opacity:0.4;
+}
+.ok:hover svg{
+	fill:#90dba9;
+    opacity:1;
+}
+.ok:focus svg, .ok.active svg{
+	fill:#0cd14e;
+}
+.ok.active:hover svg{
+	fill:#90dba9;
+}
+.ok.active:focus svg{
+	fill:#cccccc;
+}
+.count{
+    position: absolute;
+    top: 54px;
+    left: 8px;
+    font-size: 12px;
+    display: inline-block;
+    width: 48px;
+    text-align: center;
+    font-weight: 500;
+    color: #ddd;
+}
+	
+a.video_title {
+	position: absolute;
+	top: 8px;
+	left: 62px;
+	font-size: 14px;
+	max-width: calc(100% - 64px);
+	color:#fff !important;
+}
+.video_image_a {
+    position: absolute;
+    top: 38px;
+    left: 62px;
+}
+.title{
+	display:inline-block;
+    vertical-align: top;
+    margin-top: 25px;
+	font-size:32px;
+    font-weight: 500;
+	color:#fff;
+    text-shadow: rgb(0, 0, 0) 5px 0px 0px, rgb(0, 0, 0) 4.90033px 0.993347px 0px, rgb(0, 0, 0) 4.60531px 1.94709px 0px, rgb(0, 0, 0) 4.12668px 2.82321px 0px, rgb(0, 0, 0) 3.48353px 3.58678px 0px, rgb(0, 0, 0) 2.70151px 4.20735px 0px, rgb(0, 0, 0) 1.81179px 4.6602px 0px, rgb(0, 0, 0) 0.849836px 4.92725px 0px, rgb(0, 0, 0) -0.145998px 4.99787px 0px, rgb(0, 0, 0) -1.13601px 4.86924px 0px, rgb(0, 0, 0) -2.08073px 4.54649px 0px, rgb(0, 0, 0) -2.94251px 4.04248px 0px, rgb(0, 0, 0) -3.68697px 3.37732px 0px, rgb(0, 0, 0) -4.28444px 2.57751px 0px, rgb(0, 0, 0) -4.71111px 1.67494px 0px, rgb(0, 0, 0) -4.94996px 0.7056px 0px, rgb(0, 0, 0) -4.99147px -0.291871px 0px, rgb(0, 0, 0) -4.83399px -1.27771px 0px, rgb(0, 0, 0) -4.48379px -2.2126px 0px, rgb(0, 0, 0) -3.95484px -3.05929px 0px, rgb(0, 0, 0) -3.26822px -3.78401px 0px, rgb(0, 0, 0) -2.4513px -4.35788px 0px, rgb(0, 0, 0) -1.53666px -4.75801px 0px, rgb(0, 0, 0) -0.560763px -4.96846px 0px, rgb(0, 0, 0) 0.437495px -4.98082px 0px, rgb(0, 0, 0) 1.41831px -4.79462px 0px, rgb(0, 0, 0) 2.34258px -4.41727px 0px, rgb(0, 0, 0) 3.17346px -3.86382px 0px, rgb(0, 0, 0) 3.87783px -3.15633px 0px, rgb(0, 0, 0) 4.4276px -2.32301px 0px, rgb(0, 0, 0) 4.80085px -1.39708px 0px, rgb(0, 0, 0) 4.98271px -0.415447px 0px;
+}
+input[type="submit"]{
+	text-transform:uppercase;
+	border:2px solid #fff;
+	background-color:transparent;
+	border-radius:3px;padding:4px 8px;
+	font-weight:bold;
+	color:#fff;
+}
+input[type="submit"]:hover{
+    cursor:pointer;
+	background-color:#fff;
+	color:#23074d;
+}
+.mb4{margin-bottom:4px;}
+input[type="text"] {
+    border: 1px solid #777;
+	background:rgba(0,0,0,0.5);
+    border-radius: 15px;
+    padding: 6px 12px;
+	color:#fff;
+}
+.phold{
+    display:inline-block;
+    width:150px;
+	color:#fff;
+}
+
+body>center{color:#fff;}
+li{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+li form{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60px;
+    border-radius: 15px;
+}
+div#backvid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 340px;
+    max-height:50vh;
+    overflow:hidden;
+    background: transparent;
+    z-index: -1;
+    border-bottom:4px solid rgba(0,0,0,0.3);
+}
+#ytplayer{opacity:0.7;}
+.dots {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: transparent url(worn-dots.png) repeat top left;
+    z-index: 1;
+} 
+.pots {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0,0,0,0.2);
+    z-index: 1;
+}
